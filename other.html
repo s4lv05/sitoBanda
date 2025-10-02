@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logosito.png" type="image/jpg">
+    
+    <title>Banda di Zafferana Etnea</title>
+</head>
+<body>
+    <div class="bodyclick" onclick="closeMenu()"></div> 
+    <navbar>
+        <div class="top-pannel">
+            <img src="img/burgher-icon.png" alt="burgerMenu" class="burger-menu" id="burger-menu" onclick="toggleMenu()">
+            <div class="small-filler"></div>
+            <img src="img/logo.png" alt="logo" class="burger-img" onclick="home()">
+            <div class="filler"></div>
+            <a href="scuoladimusica.html" class="burger-link">Scuola di Musica</a>
+            <!--<a href="other.html" class="burger-link">Altro</a>-->
+            <a href="#footer" class="burger-link">Contatti</a>
+        </div>
+
+        <div class="pannello" id="pannello">
+            <a href="scuoladimusica.html" class="" onclick="toggleMenu()">Scuola di Musica</a>
+            <!--<a href="other.html" class="" onclick="toggleMenu()">Altro</a>-->
+            <a href="#footer" class="" onclick="toggleMenu()">Contatti</a>
+        </div>
+        
+    </navbar>
+
+    <button id="topButton" class="top-button" onclick="scrollToTop()"></button>
+
+    <br>
+
+
+
+
+
+    <footer id="footer">
+        <div class="contatti">
+            <div class="contacts">
+                <div class="whatsapp">
+                    <a href="https://wa.me/3420041182" target="_blank" class="link">
+                        <img src="img/Logo/whatsapp.png" alt="WhatsApp" class="contact-img">
+                        <p class="testo-link">Contattaci su WhatsApp</p>
+                    </a>
+                </div>
+    
+                <div class="mail">
+                    <a href="mailto:bandazafferanaetnea@gmail.com" target="_blank" class="link">
+                        <img src="img/Logo/email.png" alt="Posta Elettronica" class="contact-img" style="filter:invert(1);">
+                        <p class="testo-link">Oppure invia qui un email</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="social">
+                <a href="https://www.instagram.com/corpo_bandistico_zafferana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="img/Logo/instagram.png" alt="Instagram" class="contact-img"></a>
+                <a href="https://www.facebook.com/bandazafferana" target="_blank"><img src="img/Logo/facebook.png" alt="Facebook" class="contact-img"></a>
+                <!--<a href="https://tiktok.com" target="_blank"><img src="img/Logo/tiktok.png" alt="TikTok" class="contact-img" style="border: 1px solid white; border-radius: 100%;"></a>-->
+            </div>
+        </div>
+
+        <div class="filler"></div>
+
+        <div class="posizione">
+            <p class="link" id="dovesiamo"><strong>Dove siamo:</strong></p> <br>
+            <a href="https://maps.app.goo.gl/x5moHL3bVWZBG6Mq9" target="_blank" class="link">Via Ospizio, 6, 95019 Zafferana Etnea CT</a>
+        </div>
+</footer>
+
+<script href="code.js"></script>
+</body>
+</html>

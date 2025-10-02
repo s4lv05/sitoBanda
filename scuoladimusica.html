@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.jpg" type="image/jpg">
+    
+    <title>Banda di Zafferana Etnea</title>
+</head>
+<body>
+    <div class="bodyclick" onclick="closeMenu()"></div>
+    <navbar>
+        <div class="top-pannel">
+            <img src="img/burgher-icon.png" alt="burgerMenu" class="burger-menu" id="burger-menu" onclick="toggleMenu()">
+            <div class="small-filler"></div>
+            <img src="img/logo.png" alt="logo" class="burger-img" onclick="home()">
+            <div class="filler"></div>
+            <a href="index.html" class="burger-link">Home</a>
+            <!--<a href="other.html" class="burger-link">Altro</a>-->
+            <a href="#footer" class="burger-link">Contatti</a>
+        </div>
+
+        <div class="pannello" id="pannello">
+            <a href="index.html" class="" onclick="toggleMenu()">Home</a>
+            <!--<a href="other.html" class="" onclick="toggleMenu()">Altro</a>-->
+            <a href="#footer" class="" onclick="toggleMenu()">Contatti</a>
+        </div>
+        
+    </navbar>
+
+    <button id="topButton" class="top-button" onclick="scrollToTop()"></button>
+    
+    <div class="title2">
+        <h1>Scuola di Musica</h1>
+        <h3> Associazione Corpo Bandistico di Zafferana Etnea</h3>
+    </div> 
+    <div class="line"></div>
+
+    <div class="info-box2">
+        <div class="introduzione">
+            <p><strong>La Scuola di Musica</strong> dell'Associazione Corpo Bandistico Città di Zafferana Etnea è un servizio gratuito offerto ai soci della stessa in collaborazione con il comune di Zafferana Etnea, per lo sviluppo della passione per la musica.</p>
+            <p>La scuola offre un percorso formativo adatto a tutte le età, in cui gli allievi verranno seguiti direttamente dal maestro della banda musicale, Ignazio Coco, anch'esso membro dell'associazione. Lo studio dello strumento sarà accompagnato dall'apprendimento della teoria musicale, integrato naturalmente nel percorso didattico.</p>
+            <p>Dividiamo i vari strumenti in due grandi sezioni, <strong>la sezione dei legni</strong> e <strong>la sezione degli ottoni:</strong></p>
+        </div>
+    </div>
+    <div class="space"></div>
+
+    <div class="info-box2" id="top-spawn">
+        <h2>Sezione dei Legni</h2>
+        <div class="line"></div>
+        <p>Classifichiamo con il nome di legni tutti gli strumenti ad ancia semplice, ancia doppia e tutti i flauti. Nella nostra associazione sono presenti vari strumenti classificati come tali, i clarinetti, i sassofoni e i flauti</p>
+        <div class="space"></div>
+        <h3>Clarinetti</h3>
+        <div class="strumenti-left">
+            <img src="Strumenti/clarinet.png" alt="Clarinetto" class="clar">
+            <p>Il clarinetto è uno strumento a fiato appartenente alla famiglia dei legni, caratterizzato da un'ampia estensione e una grande versatilità timbrica. È composto da un corpo cilindrico con un'ancia semplice che vibra al passaggio dell’aria, producendo un suono caldo e melodioso. <br> <br>Nella banda musicale, il clarinetto svolge un ruolo fondamentale, spesso paragonabile a quello dei violini in un’orchestra. Si occupa delle melodie principali, delle armonizzazioni e di passaggi virtuosistici, contribuendo alla ricchezza e alla profondità dell’insieme sonoro. Grazie alla sua agilità esecutiva, può adattarsi a diversi stili musicali, dai brani marciabili alla musica sinfonica per banda. <br><br> Nella banda al momento sono presenti diversi studenti e associati che suonano il Clarinetto in SiB</p>
+        </div>
+        <div class="space"></div>
+        <h3>Sassofoni</h3>
+        <div class="strumenti-right">
+            <p>Il sassofono è uno strumento a fiato della famiglia dei legni, nonostante sia realizzato in ottone. È dotato di un’ancia semplice che vibra al passaggio dell’aria, producendo un suono potente e avvolgente.
+                <br><br>
+                Esistono diversi tipi di sassofono, ognuno con un timbro e una funzione specifica nella banda musicale <br>
+                Soprano – Il più acuto, dal suono brillante e penetrante. <br>
+                Contralto – Il più utilizzato, con un timbro equilibrato e versatile. <br>
+                Tenore – Dal suono caldo e profondo, spesso usato per melodie e accompagnamenti. <br>
+                Baritono – Il più grave, fondamentale per il sostegno armonico e ritmico. <br>
+                <br>
+                Nella banda musicale, i sassofoni hanno un ruolo molto dinamico: possono eseguire le melodie principali, accompagnare con armonie morbide o dare ritmo e corpo ai brani. Grazie alla loro espressività, sono strumenti indispensabili per arricchire il suono dell’ensemble. <br><br> Al momento nella nostra associazione sono presenti due sassofoni soprani, un sassofono contralto, due sassofoni tenori e un sassofono baritono</p>
+            <img src="Strumenti/sax.png" alt="Sassofoni" class="sax">
+        </div>
+        <div class="space"></div>
+        <h3>Flauti</h3>
+        <div class="strumenti-left">
+            <img src="Strumenti/flauto.png" alt="Flauti" class="flauto">
+            <p>Il flauto traverso è uno strumento a fiato della famiglia dei legni, nonostante sia generalmente realizzato in metallo. Il suono viene prodotto facendo vibrare l’aria attraverso un foro laterale, creando un timbro chiaro e brillante.
+                <br><br>
+                Nella banda musicale, il flauto ha un ruolo fondamentale, spesso eseguendo le parti melodiche più acute e virtuosistiche. Grazie alla sua agilità e alla capacità di eseguire passaggi rapidi e leggeri, arricchisce l’insieme orchestrale con suoni limpidi e brillanti. Inoltre, contribuisce all’armonia e alla dinamica complessiva, offrendo contrasti sonori con gli altri strumenti a fiato.
+                <br><br>
+                Al momento gli associati che suonano il flauto traverso sono in 3.
+            </p>
+        </div>
+    </div>
+
+    <div class="info-box2">
+        <h2>Sezione degli Ottoni</h2>
+        <div class="line"></div>
+        <p>Classifichiamo con il nome di ottoni tutti gli strumenti costruiti in metallo e suonati attraverso l'uso di un bocchino, anch'esso metallico. Nella nostra associazione sono presenti molti ottoni, tra cui trombe, flicorni, tromboni, eufoni e tube</p>
+        <div class="space"></div>
+        <h3>Trombe</h3>
+        <div class="strumenti-left">
+            <img src="Strumenti/trombe.png" alt="tromba" class="tromba">
+            <p>La tromba è uno strumento a fiato appartenente alla famiglia degli ottoni, caratterizzato da un suono brillante e squillante. Il suono viene prodotto facendo vibrare le labbra all’interno di un bocchino e modificando l’altezza delle note attraverso tre pistoni.
+                <br><br>
+                Nella banda musicale, la tromba ha un ruolo di primo piano: spesso esegue le melodie principali, assoli e fanfare, grazie alla sua potenza sonora e alla sua agilità esecutiva. È uno strumento molto versatile, capace di esprimere sia passaggi veloci e virtuosistici, sia momenti lirici e solenni, contribuendo alla dinamica e all’energia complessiva dell’ensemble.
+                <br><br>
+                Attualmente la sezione delle trombe è la più numerosa all'interno del nostro corpo bandistico.
+            </p>
+        </div>
+        <div class="space"></div>
+        <h3>Flicorni</h3>
+        <div class="strumenti-right">
+            <p>Il flicorno è uno strumento a fiato della famiglia degli ottoni, caratterizzato da un suono morbido e avvolgente. Ha un canneggio conico che conferisce un timbro più caldo rispetto alla tromba. Esistono diverse tipologie di flicorno, ognuna con un ruolo specifico nella banda musicale:
+                <br><br>
+                Flicorno soprano – Simile alla tromba, ma con un suono più dolce e rotondo, utilizzato per melodie più cantabili.
+                Flicorno tenore (o baritono) – Con un registro più grave, è impiegato per supporto armonico e melodico.
+                <br><br>
+                Nella banda musicale, i flicorni sono fondamentali per arricchire l’armonia e le melodie, contribuendo con un suono pieno e avvolgente che aggiunge colore e profondità all’ensemble.
+                <br><br>
+                Al momento sono presenti due Flicorni Soprani e due Flicorni Tenori nel nostro complesso bandistico.
+            </p>
+            <img src="Strumenti/flicorni.png" alt="flicorni">
+        </div>
+        <div class="space"></div>
+        <h3>Tromboni</h3>
+        <div class="strumenti-left">
+            <img src="Strumenti/trombone.png" alt="Trombone">
+            <p>Il trombone è uno strumento a fiato della famiglia degli ottoni, caratterizzato da un tubo cilindrico che termina con una campana a forma di imbuto. Il suo suono viene prodotto grazie alla vibrazione delle labbra nel bocchino e la particolarità del trombone sta nel suo sistema a coulisse, che permette di modificare l'altezza delle note in modo fluido, senza l'uso di pistoni.
+                <br><br>
+                Nella banda musicale, il trombone ha un ruolo cruciale, soprattutto nelle sezioni armoniche e ritmiche. Grazie alla sua capacità di eseguire glissando (scivolamento tra le note) e a un suono potente e profondo, il trombone è spesso utilizzato per effetti espressivi, rafforzare il basso e aggiungere colore a passaggi melodici e armonici. Il trombone contribuisce a dare energia e forza all’ensemble, svolgendo sia ruoli solistici che di supporto.
+                <br><br>
+                Sono presenti due tromboni nella nostra associazione.
+            </p>
+        </div>
+        <div class="space"></div>
+        <h3>Eufoni</h3>
+        <div class="strumenti-right">
+            <p>L'eufonio è uno strumento a fiato della famiglia degli ottoni, caratterizzato da un suono morbido, caldo e ricco. Ha una forma simile a quella della tuba, ma di dimensioni più contenute, e viene suonato con un bocchino che favorisce una vibrante resa sonora.
+                <br><br>
+                Nella banda musicale, l’eufonio svolge un ruolo di supporto armonico e melodico, con un timbro che si inserisce perfettamente tra il trombone e la tuba. Viene spesso utilizzato per le linee di basso, ma è anche capace di eseguire passaggi melodici con grande espressività, aggiungendo calore e profondità al suono dell’ensemble. L’eufonio è uno strumento che contribuisce all’equilibrio sonoro, pur mantenendo una propria personalità timbrica.</p>
+            <img src="Strumenti/eufoni.png" alt="eufoni">
+        </div>
+        <div class="space"></div>
+        <h3>Tube</h3>
+        <div class="strumenti-left">
+            <img src="Strumenti/tuba.png" alt="tuba">
+            <p>La tuba è il più grande e grave degli strumenti a fiato della famiglia degli ottoni. Il suo suono profondo e potente è prodotto dalla vibrazione delle labbra nel bocchino, e il suo grande corpo in metallo conferisce una risonanza unica.
+                <br><br>
+                Nella banda musicale, la tuba svolge un ruolo fondamentale, spesso agendo come base armonica e ritmica dell’ensemble. Grazie alla sua sonorità ricca e profonda, la tuba fornisce un solido supporto al resto degli strumenti, stabilendo il fondamento delle linee musicali. È fondamentale per creare il "corpo" dell'orchestra bandistica e per aggiungere gravità e solidità ai brani. Pur essendo principalmente uno strumento di supporto, la tuba può anche eseguire passaggi solistici con grande potenza espressiva.</p>
+        </div>
+        <div class="space"></div>
+    </div>
+
+    
+
+
+    <footer id="footer">
+        <div class="contatti">
+            <div class="contacts">
+                <div class="whatsapp">
+                    <a href="https://wa.me/3420041182" target="_blank" class="link">
+                        <img src="img/Logo/whatsapp.png" alt="WhatsApp" class="contact-img">
+                        <p class="testo-link">Contattaci su WhatsApp</p>
+                    </a>
+                </div>
+    
+                <div class="mail">
+                    <a href="mailto:bandazafferanaetnea@gmail.com" target="_blank" class="link">
+                        <img src="img/Logo/email.png" alt="Posta Elettronica" class="contact-img" style="filter:invert(1);">
+                        <p class="testo-link">Oppure invia qui un email</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="social">
+                <a href="https://www.instagram.com/corpo_bandistico_zafferana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="img/Logo/instagram.png" alt="Instagram" class="contact-img"></a>
+                <a href="https://www.facebook.com/bandazafferana" target="_blank"><img src="img/Logo/facebook.png" alt="Facebook" class="contact-img"></a>
+                <!--<a href="https://tiktok.com" target="_blank"><img src="img/Logo/tiktok.png" alt="TikTok" class="contact-img" style="border: 1px solid white; border-radius: 100%;"></a>-->
+            </div>
+        </div>
+
+        <div class="filler"></div>
+
+        <div class="posizione">
+            <p class="link" id="dovesiamo"><strong>Dove siamo:</strong></p> <br>
+            <a href="https://maps.app.goo.gl/x5moHL3bVWZBG6Mq9" target="_blank" class="link">Via Ospizio, 6, 95019 Zafferana Etnea CT</a>
+        </div>
+</footer>
+
+<script src="code.js"></script>
+</body>
+</html>
